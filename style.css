@@ -1,0 +1,490 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#6B4F4F;
+    position: fixed;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;  
+}
+h3{
+    font-size: 50px;
+    color:#EFE1D1;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-right: 30px;
+
+}
+a{
+    text-decoration: none;
+    color:#EFE1D1;
+    font-size: larger;
+}
+li{
+    list-style: none;
+}
+.list ul a:hover{
+    color: #6B4F4F;
+}
+.Home {
+    background-image: url('pastry-background.jpg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6B4F4F; /* Deep mocha for text */
+}
+
+.hero-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-content button {
+    background-color: #6B4F4F; /* Deep mocha */
+    color: #EFE1D1; /* Toasted almond */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content button:hover {
+    background-color: #B8A99A; /* Warm taupe */
+} 
+.customize-cake {
+     width: 80%;
+    max-width: 600px; /* Optional: Set a max-width for better readability */
+    background-color: #EFE1D1; /* Toasted almond */
+    text-align: center;
+    border-radius: 10px; /* Slightly rounded corners */
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+.custombody {
+    display: grid;
+    place-items: center; /* Center both horizontally and vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #F5F0E6; /* Soft cream (optional, for consistency) */
+}
+.customize-cake h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #6B4F4F; /* Deep mocha */
+    margin-bottom: 40px;
+}
+
+.steps .step {
+    margin-bottom: 30px;
+}
+
+.steps h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color: #6B4F4F; /* Deep mocha */
+    margin-bottom: 20px;
+}
+
+.options button {
+    background-color: #EFE1D1; /* Toasted almond */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #6B4F4F; /* Deep mocha */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+    background-color: #B8A99A; /* Warm taupe */
+}
+
+.summary {
+    background-color: #EFE1D1; /* Toasted almond */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.summary h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #6B4F4F; /* Deep mocha */
+    margin-bottom: 20px;
+}
+
+.summary p {
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    color: #6B4F4F; /* Deep mocha */
+    margin: 10px 0;
+}
+
+#order-now {
+    background-color: #6B4F4F; /* Deep mocha */
+    color: #EFE1D1; /* Toasted almond */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#order-now:hover {
+    background-color: #B8A99A; /* Warm taupe */
+}
+/* Login Container */
+.login-container {
+    background-color: #EFE1D1; /* Toasted almond */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto; /* Center the container */
+}
+
+.login-container  {
+    color: #6B4F4F; /* Deep mocha */
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* Match your navbar font */
+    font-size: 2.5rem;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    color: #6B4F4F; /* Deep mocha */
+    margin-bottom: 5px;
+    font-family: 'Lora', serif; /* Match your body font */
+    font-size: 1.2rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #B8A99A; /* Warm taupe */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #F5F0E6; /* Soft cream */
+    color: #6B4F4F; /* Deep mocha */
+    font-family: 'Raleway', sans-serif; /* Match your button font */
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #6B4F4F; /* Deep mocha */
+}
+
+/* Button Styles */
+.login-container button {
+    width: 40%;
+    padding: 10px;
+    background-color: #6B4F4F; /* لون غامق */
+    color: #EFE1D1; /* لون النص فاتح */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #B8A99A; /* باش يتغير شوية عند المرور عليه */
+}
+
+
+
+
+
+/* Sign Up Link */
+.login-container p {
+    margin-top: 15px;
+    color:#6B4F4F ; /* Deep mocha */
+    font-family: 'Lora', serif; /* Match your body font */
+    font-size: 1.1rem;
+}
+
+.login-container p a h2 {
+    color: #6B4F4F; /* Deep mocha */
+    text-decoration: none;
+    font-weight: 500;
+}
+ 
+/* Sign Up Container */
+.signup-container {
+    background-color: #EFE1D1; /* Toasted almond */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    margin: auto; /* Center the container */
+    
+}
+
+.signup-container h2 {
+    color: #6B4F4F; /* Deep mocha */
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* Match your navbar font */
+    font-size: 2.5rem;
+}
+
+/* Form Styles */
+.signup-container .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.signup-container .form-group label {
+    display: block;
+    color: #6B4F4F; /* Deep mocha */
+    margin-bottom: 5px;
+    font-family: 'Lora', serif; /* Match your body font */
+    font-size: 1.2rem;
+}
+
+.signup-container .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #B8A99A; /* Warm taupe */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #F5F0E6; /* Soft cream */
+    color: #6B4F4F; /* Deep mocha */
+    font-family: 'Raleway', sans-serif; /* Match your button font */
+}
+
+.signup-container .form-group input:focus {
+    outline: none;
+    border-color: #6B4F4F; /* Deep mocha */
+}
+
+/* Button Styles */
+.signup-container button {
+    width: 100%;
+    padding: 15px 30px;
+    background-color: #6B4F4F; /* Deep mocha */
+    color: #EFE1D1; /* Toasted almond */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif; /* Match your button font */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-container button:hover {
+    background-color: #B8A99A; /* Warm taupe */
+}
+
+/* Login Link */
+.signup-container p {
+    margin-top: 15px;
+    color: #6B4F4F; /* Deep mocha */
+    font-family: 'Lora', serif; /* Match your body font */
+    font-size: 1.1rem;
+}
+
+.signup-container p a {
+    color: #6B4F4F; /* Deep mocha */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signup-container p a:hover {
+    text-decoration: underline;
+}
+.error-message {
+    color: #dc3545;
+    background: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* تصميم موحد للكارد */
+.card-container {
+    background-color: #EFE1D1;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-container h2 {
+    color: #6B4F4F;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+/* تصميم خطوات الاختيار */
+.step-container {
+    display: none;
+}
+
+.step-container.active {
+    display: block;
+}
+
+.choice-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.choice-item {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.choice-item:hover, 
+.choice-item.selected {
+    border-color: #6B4F4F;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.choice-item img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.choice-item .price {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+/* تصميم أزرار التنقل بين الخطوات */
+.step-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.step-navigation .btn {
+    background-color: #6B4F4F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.step-navigation .btn:hover {
+    background-color: #B8A99A;
+}
+
+/* تصميم خاص بصفحة الدفع */
+.payment-form .input-group {
+    margin-bottom: 20px;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #6B4F4F;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.payment-form input:focus {
+    border-color: #B8A99A;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(184, 169, 154, 0.2);
+}
+
+.payment-btn {
+    background-color: #6B4F4F;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto 0;
+}
+
+.payment-btn:hover {
+    background-color: #B8A99A;
+}
+
