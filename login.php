@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <div class="login-container">
-        <h2 color="#6B4F4F">Login to Mycakeline</h2>
+        <h2 >Login to Mycakeline</h2>
         <form id="login-form" method="POST" action="login.php">
             <div class="form-group">
                 <label for="email">Email</label>
